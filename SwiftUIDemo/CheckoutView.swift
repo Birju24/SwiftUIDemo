@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CheckoutView: View {
     @EnvironmentObject var order: Order
-    let tipAmounts = [0,5,10,15,20]
+    let tipAmounts = [0,5,10,15,20,25]
     @State private var tipAmount = 10
     
     let paymentTypes = ["Cash","Credit Card","App Points"]
